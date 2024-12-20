@@ -1,24 +1,26 @@
-Технології:
+Run the project: python manage.py runserver
+
+Technologies:
 Python 3.x
 Django
 Django REST Framework
-MYsql 
+MYsql
 
-встановіть усі залежності:
+Install all dependencies:
 pip install -r requirements.txt
 
-Для створення таблиць у базі даних виконайте наступні команди:
+To create tables in the database, run the following commands:
 python manage.py makemigrations
 python manage.py migrate
 
-Доступні ендпоінти:
-/api/spycats/{id}: Список всіх котів-агентів (GET), створення нового кота (POST), 
-Оновлення інформації(PATCH/PUT), видалення(DELETE)
+Available endpoints:
+/api/spycats/{id}: List all agent cats (GET), create a new cat (POST),
+Update information (PATCH/PUT), delete (DELETE)
 
-/api/missions/{id}: Список всіх місій (GET), створення нової місії (POST), 
-Оновлення інформації про конкретну місію (PATCH/PUT), видалення(DELETE)
+/api/missions/{id}: List all missions (GET), create a new mission (POST),
+Update information about a specific mission (PATCH/PUT), delete (DELETE)
 
-/api/targets/{id}: Список всіх таргетів (GET), створення нового таргету (POST),
-Оновлення інформації(PATCH/PUT), видалення(DELETE)
+/api/targets/{id}: List all targets (GET), create a new target (POST),
+Update information (PATCH/PUT), delete (DELETE)
 
-/api/missions/create_with_targets/: Створення місії з таргетами (POST)
+/api/missions/create_with_targets/: Creating a mission with targets (POST)
