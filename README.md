@@ -1,16 +1,26 @@
-Run the project: python manage.py runserver
+Run the project:
+
+python manage.py runserver
 
 Technologies:
+
 Python 3.x
+
 Django
+
 Django REST Framework
-MYsql
+
+MYSQL
 
 Install all dependencies:
+
 pip install -r requirements.txt
 
+
 To create tables in the database, run the following commands:
+
 python manage.py makemigrations
+
 python manage.py migrate
 
 Available endpoints:
